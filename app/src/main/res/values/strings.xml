@@ -1,4 +1,14 @@
 <resources>
     <string name="app_name">Sounds</string>
     <string name="next">Next</string>
+    <string name="sounds_category_activity_name">Sounds</string>
+    <string name="animal_sounds_activity_name">Animals</string>
+    <string name="warning_sounds_activity_name">Warnings</string>
+    <string name="taunts_sounds_activity_name">Taunts</string>
+    <string name="content_description_for_animals_category">picture of a cat illustrating animals category</string>
+    <string name="content_description_for_warnings_category">picture of a road sign illustrating a warning category</string>
+    <string name="content_description_for_taunts_category">picture of a cartoon character minions laughing illustrates a taunts category</string>
+    <string name="content_description_for_app_logo">a picture illustrating Sounds App logo</string>
+    <string name="content_description_for_different_sounds">a picture illustrating multiple kinds of sounds in a list view</string>
+    <string name="content_description_for_play_icon">a picture illustrating music play icon</string>
 </resources>

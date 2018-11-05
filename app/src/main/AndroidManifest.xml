@@ -9,17 +9,30 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".SplashActivity">
+        <activity
+            android:name=".SplashActivity"
+            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SoundsCategoryActivity" />
-        <activity android:name=".AnimalSoundsActivity" />
-        <activity android:name=".WarningSoundsActivity" />
-        <activity android:name=".TauntsSoundsActivity"></activity>
+        <activity
+            android:name=".SoundsCategoryActivity"
+            android:label="@string/sounds_category_activity_name" />
+        <activity
+            android:name=".AnimalSoundsActivity"
+            android:label="@string/animal_sounds_activity_name"
+            android:parentActivityName=".SoundsCategoryActivity" />
+        <activity
+            android:name=".WarningSoundsActivity"
+            android:label="@string/warning_sounds_activity_name"
+            android:parentActivityName=".SoundsCategoryActivity" />
+        <activity
+            android:name=".TauntsSoundsActivity"
+            android:label="@string/taunts_sounds_activity_name"
+            android:parentActivityName=".SoundsCategoryActivity" />
     </application>
 
 </manifest>
